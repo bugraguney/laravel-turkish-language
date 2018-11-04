@@ -1,0 +1,35 @@
+{
+  "name": "bugraguney/laravel-turkish-language",
+  "type": "library",
+  "description": "Laravel için Türkçe dil desteği",
+  "keywords": ["Laravel Türkçe","Laravel Turkish","Türkçe Dil Desteği","Turkish Language"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Buğra Güney",
+      "email": "bgrgny@gmail.com",
+      "homepage": "https://bugraguney.com.tr",
+      "role": "Software Developer"
+    }
+  ],
+  "require": {
+    "php": "^7.1.3",
+    "illuminate/console": "~5.7.11",
+    "illuminate/support": "~5.7.11"
+  },
+  "require-dev": {},
+  "autoload": {
+    "psr-4": {
+      "bugraguney\\laraveltr\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "bugraguney\\laraveltr\\ServiceProvider"
+      ]
+    }
+  }
+}
+
+
