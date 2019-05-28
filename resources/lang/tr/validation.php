@@ -2,8 +2,8 @@
 /**
  * Created by PhpStorm.
  * User: Buğra Güney
- * Date: 04.11.2018
- * Time: 00:26
+ * Date: 28.05.2019
+ * Time: 10:43
  */
 
 return [
@@ -46,6 +46,7 @@ return [
     'dimensions' => ':attribute geçersiz resim ölçülerine sahiptir.',
     'distinct' => ':attribute alanı tekrarlanan bir değere sahiptir.',
     'email' => ':attribute doğru bir e-posta olmalıdır.',
+    'ends_with' => ':attribute aşağıdakilerden biriyle bitmelidir: :values',
     'exists' => 'Seçili olan :attribute geçersiz.',
     'file' => ':attribute dosya olmalıdır.',
     'filled' => ':attribute alanı bir değer içermelidir.',
@@ -144,9 +145,9 @@ return [
     | Custom Validation Attributes
     |--------------------------------------------------------------------------
     |
-    | The following language lines are used to swap attribute place-holders
-    | with something more reader friendly such as E-Mail Address instead
-    | of "email". This simply helps us make messages a little cleaner.
+    | The following language lines are used to swap our attribute placeholder
+    | with something more reader friendly such as "E-Mail Address" instead
+    | of "email". This simply helps us make our message more expressive.
     |
     */
 
