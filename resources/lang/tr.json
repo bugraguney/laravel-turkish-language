@@ -7,6 +7,7 @@
   "You are receiving this email because we received a password reset request for your account.": "Hesabınız için şifre sıfırlama isteği aldığımız için bu e-postayı alıyorsunuz.",
   "Reset Password": "Şifreyi Yenile",
   "If you did not request a password reset, no further action is required.": "Şifre sıfırlama isteğinde bulunmadıysanız, bir işlem yapmanız gerekmez.",
+  "This password reset link will expire in :count minutes.": "Bu parola sıfırlama bağlantısı :count dakika içinde sona erecek.",
   "All rights reserved.": "Tüm hakkları saklıdır.",
   "Login":"Giriş",
   "E-Mail Address":"E-Posta Adresi",
